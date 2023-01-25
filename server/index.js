@@ -23,7 +23,7 @@ mongoose
   });
 
 app.get("/", (req, res) => {
-  res.send("This api is working");
+  res.send("This api is workingg");
 });
 app.use("/api/auth", authRoutes);
 app.use("/api/messages", messageRoutes);
